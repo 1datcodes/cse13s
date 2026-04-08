@@ -1,0 +1,6 @@
+[submodule "mitanaka"]
+	path = mitanaka
+	url = git@git.ucsc.edu:cse13s/spring-2026-section-01/mitanaka.git
+[submodule "resources"]
+	path = resources
+	url = git@git.ucsc.edu:cse13s/spring-2026-section-01/resources.git
