@@ -1,0 +1,17 @@
+C was made so that INT was the fastest data type. Even boolean uses 16bit
+int because it was faster.
+
+if statements check for int inside the arguments
+0 == false not 0 == true
+
+Logical OR: ||
+    returns 0 only when a and b is both 0 --> if a or b is non-zero (e.g.
+    2, -3, 1, 3.14) returns 1
+    strings: if ("ABC") --> checks if the address of the string is non-zero
+    ** strings are a list of chars (linked list?) terminated by null
+    address
+Logical AND: &&
+    returns 1 when both a and b is non-zero --> returns zero if either
+    input is zero.
+
+    

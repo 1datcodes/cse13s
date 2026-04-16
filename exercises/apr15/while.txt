@@ -1,0 +1,9 @@
+int i = 0;
+while (i < 3) {
+    ...
+    i = i + 1;
+}
+
+if condition is non-zero then run the body
+top-test loop: checks whether the algorithm enters the body at the top (may
+not even enter)
