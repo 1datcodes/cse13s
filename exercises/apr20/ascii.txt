@@ -1,0 +1,9 @@
+[0-9] is on 48-57 --> '0':48 minus 48 would equal value 0, '1':49 minus 48
+would equal value 1, etc. etc.
+
+[A-Z] starts from 65, and [a-z] starts from 97. Exactly 32 positions later
+--> easy to swap upper case and lower case letters using XOR.
+
+'a' literally means decimal value 97 --> 'a' == 97 will return True
+
+function 'isprint(char)' will return whether the char is printable or not
