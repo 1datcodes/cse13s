@@ -1,0 +1,5 @@
+hello: hello.o
+	clang hello.o -o hello
+
+hello.o: hello.c
+	clang -c hello.c

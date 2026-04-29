@@ -1,0 +1,18 @@
+.PHONY: all # declare phony target --> don't look for it
+all: compress decompress # phony target
+
+compress: compress.o
+	clang compress.o -o compress
+
+compress.o: compress.c
+	clang -c compress.c
+
+decompress: decompress.o
+	clang decompress.o -o decompress
+
+decompress.o: decompress.c
+	clang -c decompress.c
+
+.PHONY: clean
+clean:
+	rm -f compress compress.o decompress decompress.o
